@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calcContainer">
+        <div>
+            <input type="text" name="display" id="display">
+        </div>
+        <div>
+
+            <input type="button" onclick="clickHandle(this.value)" value="7">
+            <input type="button" onclick="clickHandle(this.value)" value="8">
+            <input type="button" onclick="clickHandle(this.value)" value="9">
+            <input type="button" onclick="clickHandle(this.value)" value="+">
+        </div>
+        <div>
+
+            <input type="button" onclick="clickHandle(this.value)" value="4">
+            <input type="button" onclick="clickHandle(this.value)" value="5">
+            <input type="button" onclick="clickHandle(this.value)" value="6">
+            <input type="button" onclick="clickHandle(this.value)" value="-">
+        </div>
+        <div>
+
+            <input type="button" onclick="clickHandle(this.value)" value="1">
+            <input type="button" onclick="clickHandle(this.value)" value="2">
+            <input type="button" onclick="clickHandle(this.value)" value="3">
+            <input type="button" onclick="equals(this.value)" value="=">
+        </div>
+        <div>
+
+            <input type="button" onclick="clickHandle(this.value)" value="*">
+            <input type="button" onclick="clickHandle(this.value)" value="0">
+            <input type="button" onclick="clickHandle(this.value)" value="/">
+            <input type="button" onclick="clearinput()" value="C">
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
