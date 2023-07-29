@@ -1,0 +1,18 @@
+#parent{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#child{
+    /* background-color: aqua; */
+    /* border: 1px solid gray; */
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+}
+#child>img{
+    width: 50%;
+}
