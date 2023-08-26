@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+    /* padding: 10px; */
+    background-color: #D9D9D9;
+    height: 100vh;
+}
+header{
+    padding: 10px;
+    /* background-color: white; */
+    
+}
+
+#logo{
+    width: 6%;
+    border-radius: 50%;
+}
+
+#searchTxt{
+    height: 50px;
+    width: 60%;
+    border: none;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#searchButton{
+    background-color: #F35555;
+    border: none;
+    height: 50px;
+    width: 10%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+.searchGroup{
+    width: 70%;
+    margin: auto;
+    /* transform-origin: center; */
+    /* background-color: #F35555; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main{
+    margin-top: 50px;
+    
+}
+#attendanceContainer{
+    height: 500px;
+    overflow-y: scroll;
+    width: 90%;
+    margin: auto;
+}
+#studentsAttendace{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+   
+}
+th{
+    font-size: 20px;
+    border-bottom: 3px rgb(79, 77, 77) solid;
+}
+td{
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px rgb(244, 244, 244) solid;
+
+}
