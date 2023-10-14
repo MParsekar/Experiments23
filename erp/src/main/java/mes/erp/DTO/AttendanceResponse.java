@@ -13,4 +13,5 @@ public class AttendanceResponse {
     int marks;
     String date;
     String errorMessage;
+    String buzzzinga;
 }

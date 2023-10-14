@@ -1,13 +1,5 @@
 function logAttendance() {
-    fetch("/api/attendance/takeAttendace", {
-        method: "POST",
-        body: JSON.stringify({
-            "rollNo": "TYBCA1640",
-            "attendace": "P",
-            "marks": "20"
-        }),
-        headers: { "Content-Type": "application/json", }
-    },).then(resp => resp.json()).then(reponse => console.log(reponse))
+    
 
     fetch("/api/attendance/getTodaysattendance").then(reJson => reJson.json()).then(response => {
         console.log(response);

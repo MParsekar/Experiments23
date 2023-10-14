@@ -33,7 +33,7 @@ public class AttendanceService {
             attendance.setDate(formattedDate);
             attendance.setIp(ip);
             // check
-            List<Attendance> attendancePresent = getByIp(ip);
+            List<Attendance> attendancePresent = getByIp("0");
             if (attendancePresent.size() == 0) {
                 attendancePresent = getAttendanceByRollAndDate(request.getRollNo(), formattedDate);
                 if (attendancePresent.size() > 0) {
@@ -89,5 +89,5 @@ public class AttendanceService {
                 .map(e -> mapAttendace(new AttendanceResponse(), e)).collect(Collectors.toList());
 
     }
-    
+
 }
